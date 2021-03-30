@@ -1,0 +1,34 @@
+$dark-theme-color: #405cb1;
+$medium-theme-color: #98aedd;
+$light-theme-color: #e4eaf6;
+
+body {
+  background-color: $dark-theme-color;
+  color: $light-theme-color;
+}
+h2 {
+  font-size: 30px;
+}
+.tool-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  // li {
+  //     margin: 20px;
+  //     width: 200px;
+  //     height: 150px;
+  //     background-color: $light-theme-color;
+  //     color: $dark-theme-color;
+  //     list-style: none;
+  // }
+  .col-sm {
+    background-color: $light-theme-color;
+    color: $dark-theme-color;
+    margin: 20px;
+  }
+  @media (max-width: 576px) {
+    .col-sm {
+      margin: 20px 0px;
+    }
+  }
+}
