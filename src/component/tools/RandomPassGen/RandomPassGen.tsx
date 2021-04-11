@@ -22,14 +22,14 @@ export default function RandomPassGen() {
     setResult(result.join(''));
     setDisplayResult('flex');
   }
-
+  
   const [count, setCount] = useState(defaultLengthValue);
   const [displayResult, setDisplayResult] = useState('none');
   const [result, setResult] = useState('');
   return (
     <div>
       <div className='header'>
-        <h2 className='title'>RandomPassGen</h2>
+        <h2 className='title'>Random Password Generator</h2>
         <Link to='/dashboard'>Home</Link>
       </div>
       <div className='content'>
